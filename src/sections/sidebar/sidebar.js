@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { FaPlus } from 'react-icons/fa6';
+// import { FaPlus } from 'react-icons/fa';
 import { CiHome } from 'react-icons/ci';
 import { MdLogout } from 'react-icons/md';
 import images from '../../assets/assets';
@@ -84,7 +84,7 @@ function SideBar({ setCreateNewNotes }) {
           <CiHome className={styles.svg} />
         </button>
         <button className={styles.button} onClick={newNotes}>
-          <FaPlus className={styles.svg} />
+          {/* <FaPlus className={styles.svg} /> */}
         </button>
       </article>
       <button className={styles.button} onClick={logOut}>
