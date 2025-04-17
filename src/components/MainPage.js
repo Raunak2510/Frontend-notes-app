@@ -22,7 +22,7 @@ function MainPage({ logout }) {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        "https://takenotes123backend.onrender.com/api/notes",
+        "https://backend-notes-app-u6ij.onrender.com/api/notes",
         {
           headers: { Authorization: `Bearer ${token}` },
         }
