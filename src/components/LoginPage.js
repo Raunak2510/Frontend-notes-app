@@ -21,12 +21,7 @@ function LoginPage({ setLoading }) {
       if (response.data.token) {
         localStorage.setItem('token', response.data.token);
         localStorage.setItem('username', username);
-        console.log('here')
-        if (localStorage.getItem('token')) {
-          navigate('/main');
-        }else {
-          navigate('/main');
-        }
+        navigate('/main');
       } else {
         setError(response.data.message || 'An unexpected error occurred');
       }
