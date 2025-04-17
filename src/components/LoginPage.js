@@ -47,7 +47,7 @@ function LoginPage({ setLoading }) {
         </div>
         <div className="right-section">
           <img src="Logo.png" alt="Notes.me" className="logo" />
-          <form onSubmit={handleSubmit()}>
+          <form onSubmit={handleSubmit}>
             <div className="input-group">
               <input
                 type="text"
