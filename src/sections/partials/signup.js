@@ -13,7 +13,7 @@ import { IoLogoGoogle } from "react-icons/io";
 // import { response } from "express";
 import FirstPageRoute from "../../pages/firstpage/firstpage_router";
 
-const signUpUrl = "http://localhost:8000/api/users/register";
+const signUpUrl = "https://backend-notes-app-u6ij.onrender.com/api/users/register";
 
 function SignUp() {
   const BrandLight = images[0];

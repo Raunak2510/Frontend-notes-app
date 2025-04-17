@@ -12,7 +12,7 @@ function Note(props) {
   const [expand, setExpand] = useState(false);
   const [noteText, setNoteText] = useState("");
 
-  const createNotesUrl = "http://localhost:8000/api/notes/createnotes";
+  const createNotesUrl = "https://backend-notes-app-u6ij.onrender.com/api/notes/createnotes";
 
  
    

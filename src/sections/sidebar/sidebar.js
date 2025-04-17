@@ -19,7 +19,7 @@ function SideBar({ setCreateNewNotes }) {
     setCreateNewNotes(true);
   }
 
-  const logoutUrl = "http://localhost:8000/api/users/logout";
+  const logoutUrl = "https://backend-notes-app-u6ij.onrender.com/api/users/logout";
 
   function logOut() {
     

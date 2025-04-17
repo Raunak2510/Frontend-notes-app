@@ -47,7 +47,7 @@ const useNotes = () => {
   
 
   useEffect(() => {
-    const getNotesUrl = "http://localhost:8000/api/notes/getnote";
+    const getNotesUrl = "https://backend-notes-app-u6ij.onrender.com/api/notes/getnote";
     const token = localStorage.getItem('token'); // Retrieve the token from localStorage
 
    console.log("token"+localStorage.key(4));
