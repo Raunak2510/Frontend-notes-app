@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from "@iconify/react";
-import { FiSunset } from "react-icons/fi";
+import { FiSunset } from "react-icons/fa";
 
 import styles from "./searchbar.module.scss";
 
